@@ -25,7 +25,7 @@ One of the main challenges was figuring out how real routes work on maps. At fir
 
 Learning how to use the OSRM API to get actual road routes was a big step.
 
-Another challenge was handling map interactions properly — making sure pickup and destination don’t conflict, and managing app state cleanly in JavaScript.
+Another challenge was handling map interactions properly making sure pickup and destination don’t conflict, and managing app state cleanly in JavaScript.
 
 Animating the driver smoothly along the route was also tricky at first, especially syncing movement with route coordinates.
 

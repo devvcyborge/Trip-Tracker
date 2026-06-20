@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script defer src="./index.js"></script>
+    <title>Trip Tracker</title>
+  </head>
+  <body>
+    <div class="panel">
+      <h2>Trip Tracker</h2>
+      <button onclick="enablePick('start')">Set Pickup</button>
+      <button onclick="enablePick('end')">Set Destination</button>
+      <button onclick="saveTrip()">Save Trip</button>
+      <button onclick="clearAll()">Clear</button>
+
+      <p id="status"></p>
+
+      <div id="info"></div>
+      <div id="history"></div>
+    </div>
+
+    <!-- Map -->
+    <div id="map"></div>
+  </body>
+</html>
